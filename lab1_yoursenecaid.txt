@@ -24,21 +24,18 @@ test_a1 (__main__.lab1c)
 test_b (__main__.lab1c)
 [Lab 1] - [Investigation 4] - integer objects & printing - Test output for correct output "Isaac is 72 years old!": ./lab1c.py ... ok
 test_0 (__main__.lab1d)
-[Lab 1] - [Investigation 5] - math operators - Test for file creation: ./lab1d.py ... FAIL
-
-======================================================================
-FAIL: test_0 (__main__.lab1d)
-[Lab 1] - [Investigation 5] - math operators - Test for file creation: ./lab1d.py
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/Users/avi.koen/ops445/lab1/./CheckLab1.py", line 171, in test_0
-    self.assertTrue( os.path.exists('./lab1d.py'), msg=error_output)
-AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
+[Lab 1] - [Investigation 5] - math operators - Test for file creation: ./lab1d.py ... ok
+test_a (__main__.lab1d)
+[Lab 1] - [Investigation 5] - math operators - Test for errors running: ./lab1d.py ... ok
+test_a1 (__main__.lab1d)
+[Lab 1] - [Investigation 5] - math operators - Test for correct shebang line: ./lab1d.py ... ok
+test_b (__main__.lab1d)
+[Lab 1] - [Investigation 5] - math operators - Test output for correct output "10 + 2 * 5 = 20": ./lab1d.py ... ok
 
 ----------------------------------------------------------------------
-Ran 13 tests in 0.285s
+Ran 16 tests in 0.371s
 
-FAILED (failures=1)
+OK
 OPS435 Lab Report - System Information for running ./CheckLab1.py
 =================================================================
     User login name: avi.koen
@@ -48,5 +45,5 @@ OPS435 Lab Report - System Information for running ./CheckLab1.py
     Python version: 396
     OS Platform: darwin
     Working Directory: /Users/avi.koen/ops445/lab1
-    Start at: Wed May 15 14:36:36 2024
+    Start at: Wed May 15 14:43:31 2024
 =================================================================
